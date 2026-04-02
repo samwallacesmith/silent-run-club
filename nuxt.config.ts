@@ -36,7 +36,7 @@ export default defineNuxtConfig({
         { property: 'og:site_name', content: 'Silent Runners Club' },
       ],
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo-illuminati.svg' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         {
           rel: 'preconnect',
