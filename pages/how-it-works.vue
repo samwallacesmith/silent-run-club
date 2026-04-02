@@ -21,7 +21,7 @@ useHead({
     <h1
       class="font-display text-3xl font-bold tracking-tight text-white sm:text-4xl"
     >
-      How it works test
+      How it works
     </h1>
     <p class="mt-4 text-lg text-zinc-400">
       Each run publishes a QR that opens a shared listen link—everyone uses

@@ -37,12 +37,12 @@ const nextJamQr = computed(() => {
 })
 
 useSeoMeta({
-  title: 'Silent Runners Club · same mix, your headphones',
+  title: 'Silent Runners Club · tunes on the run, talk after',
   description:
-    'Run together with your own headphones—everyone opens the same QR link so you hear the same set. Scan, lace up, go.',
+    'For people who want the same tunes in their ears on the route and a real hangout after—QR listen link on the run, then drinks, chatter, and DJs.',
   ogTitle: 'Silent Runners Club',
   ogDescription:
-    'Same mix. Your headphones. Promote DJs and share the route.',
+    'Tunes on the run. Conversation and partying after. Same QR, same vibe.',
   ogImage: `${siteUrl}/og-default.svg`,
   ogUrl: siteUrl + '/',
   twitterCard: 'summary_large_image',
@@ -67,17 +67,17 @@ useHead({
       </div>
       <div class="relative mx-auto max-w-5xl px-4 py-20 sm:px-6 sm:py-28">
         <p class="text-sm font-medium uppercase tracking-widest text-violet-400/90">
-          Same mix. Silent streets.
+          Tunes on the run. Talk after.
         </p>
         <h1
           class="mt-4 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl"
         >
-          Run club for people who only hear the mix in their earphones.
+          For people who want to listen together—then actually talk after the miles.
         </h1>
         <p class="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-300">
-          We meet, scan a QR that opens each run’s shared listen link, and move as one—without
-          speakers on the sidewalk. You promote DJs, share the night, and keep the city
-          quiet.
+          Same QR listen link in everyone’s headphones while we move—no speakers on the sidewalk.
+          When the run’s done, we head to the after-spot to debrief, laugh, meet the DJ, and
+          keep the night going out loud.
         </p>
         <div class="mt-10 flex flex-wrap gap-4">
           <NuxtLink

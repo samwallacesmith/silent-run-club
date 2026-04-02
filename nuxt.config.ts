@@ -32,11 +32,6 @@ export default defineNuxtConfig({
       defaultTitle: 'Silent Runners Club',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        {
-          name: 'description',
-          content:
-            'Run together in silence—everyone uses the same QR link to the run’s shared listen URL (Spotify, Apple Music, or whatever the route uses). Promote DJs and share the vibe.',
-        },
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'Silent Runners Club' },
       ],
