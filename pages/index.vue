@@ -71,7 +71,7 @@ useHead({
         <p
           class="text-sm font-medium uppercase tracking-widest text-violet-400/90"
         >
-          Tunes on the run. Talk after.
+          Tunes on the run. Socialise after.
         </p>
         <h1
           class="mt-4 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl"
