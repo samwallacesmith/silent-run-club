@@ -76,8 +76,7 @@ useHead({
         <h1
           class="mt-4 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl"
         >
-          For people who want hear bangers, then still move after the miles
-          together.
+          For people who want hear bangers, then still move after the miles.
         </h1>
         <p class="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-300">
           Same QR listen link in everyone’s headphones while we move—no speakers
