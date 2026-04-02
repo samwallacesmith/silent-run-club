@@ -76,7 +76,20 @@ useHead({
         <h1
           class="mt-4 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl"
         >
-          For people who want hear bangers, then still move.
+          <span>
+            For people who want to hear bangers, then still move.
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="ml-2 inline-block h-[0.85em] w-[0.85em] shrink-0 align-[-0.08em] text-violet-400 sm:ml-3"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 3v9.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6zm-6 16c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm10-10h4v4h-4v-4z"
+              />
+            </svg>
+          </span>
         </h1>
         <p class="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-300">
           Same QR listen link in everyone’s headphones while we move—no speakers
