@@ -1,0 +1,35 @@
+{
+  "name": "silentrunnersclub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:clean": "nuxi cleanup && nuxt dev",
+    "dev:preview": "nuxt build && nuxt preview",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "@nuxt/content": "2.13.4",
+    "nuxt": "3.12.4",
+    "qrcode": "^1.5.4",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/qrcode": "^1.5.5",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "nuxi": "3.20.0",
+    "nitropack": "2.9.7"
+  }
+}
