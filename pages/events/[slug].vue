@@ -82,6 +82,7 @@ const jamQr = computed(() => {
   const ev = event.value;
   if (!ev) return null;
   return resolveJamQrUrl(ev.jamUrl, {
+    persistentJamQrUrl: config.public.persistentJamQrUrl as string,
     defaultJamQrUrl: config.public.defaultJamQrUrl as string,
     siteUrl,
   });

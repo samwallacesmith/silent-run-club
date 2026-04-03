@@ -77,7 +77,7 @@ useHead({
           class="mt-4 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl"
         >
           <span>
-            For people who want to hear bangers, then still move.
+            For music to run too..
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

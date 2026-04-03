@@ -1,4 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+/** Temporary club-wide listen QR until admin UI. Override with NUXT_PUBLIC_PERSISTENT_JAM_QR_URL. */
+const clubListenQrUrl =
+  'https://open.spotify.com/socialsession/7dZXJVlPY0G1sDPuDW3eiS?si=54bAubgNQN25WuLYD-jzMQ'
+
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   /** Prefer 3000 so the browser URL matches `npm run dev` output; free the port if something else is bound. */
@@ -58,8 +62,14 @@ export default defineNuxtConfig({
       /** Set in production for absolute OG URLs, e.g. https://yoursite.com */
       siteUrl: '',
       /**
+       * When non-empty, every run QR uses this URL (overrides per-event `jamUrl`).
+       * Default is `clubListenQrUrl` until admin UI; set NUXT_PUBLIC_PERSISTENT_JAM_QR_URL to override without a code change.
+       */
+      persistentJamQrUrl: clubListenQrUrl,
+      /**
        * Club QR when a run has no `jamUrl` in frontmatter (e.g. default listen link or landing URL).
        * Env: NUXT_PUBLIC_DEFAULT_JAM_QR_URL. If empty, QR falls back to `siteUrl` (homepage).
+       * Ignored while `persistentJamQrUrl` is set.
        */
       defaultJamQrUrl: '',
     },
